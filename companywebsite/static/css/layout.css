@@ -4,7 +4,7 @@
 }
 body {
   background-color: whitesmoke;
-  color: #17421d;
+  color:rgb(236, 68, 236);
 }
 .container {
   width: 1080px;
@@ -12,20 +12,19 @@ body {
   margin-right: auto;
   border-width: 1px 1px 1px 1px;
   border-style: solid;
-  box-shadow: 15px 15px 8px gray;
 }
 
 .banner {
   display: block;
   width: 100%;
-  height: 250px;
+  height: 500px;
   text-align: center;
-  font-size: 60px;
-  background-image: url("/static/img/banner1.jpg");
+  font-size: 50px;
+  background-image: url("/static/img/new.jpg");
   background-size: 100% 100%;
   margin: 0px 0px 0px 0px;
-  padding-top: 150px;
-  color: #16d1ae;
+  padding-top: 450px;
+  color: yellow;
 }
 
 .menu {
@@ -88,14 +87,16 @@ body {
 .productcontent {
   min-height: 500px;
   margin: 10px 10px 10px 10px;
+  text-align: center;
 }
 
 .productcontent h1 {
-  text-align: left;
+  text-align: center;
 }
 
 .productitems {
   display: block;
+  text-align: center;
 }
 
 .productitem {
@@ -106,9 +107,11 @@ body {
 }
 
 .productitem img {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   display: block;
+  position: relative;
+        right:70px;
 }
 .productitem .itemimage {
   display: block;
@@ -116,22 +119,32 @@ body {
   margin-right: auto;
   width: 100px;
   margin-bottom: 5px;
+  position: relative;
+        right:50px;
 }
 
 .productitem .itemname {
-  display: block;
+  text-align: center;
 }
 .productitem .itemprice {
-  display: block;
+  text-align: center;
 }
 
 .footer {
-  display: block;
+  display:inline;
   width: 100%;
-  height: 40px;
+  height: 50px;
   background-color: #5bb045;
   text-align: center;
   padding-top: 10px;
   margin: 0px 0px 0px 0px;
   color: #9c1018;
+  text-align:center;
+  position: relative;
+     bottom:50px;
+}
+.us{
+  text-align: center;
+  text-size-adjust: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
