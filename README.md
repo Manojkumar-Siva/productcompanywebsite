@@ -325,7 +325,10 @@ Publish the website in the given URL.
 
 ### Home Page:
 
-![output](/static/img/website.png)
+![output](./images/website.png)
+![out](./images/premium.jpg)
+![](./images/peeps.jpg)
+![](./images/con.jpg)
 
 ## Result:
 
